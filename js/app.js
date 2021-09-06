@@ -18,6 +18,8 @@ const akanChecker = (e) => {
       return;
   }
 
+  const ccString = yearOfBirth.toString();
+
 
 
 
