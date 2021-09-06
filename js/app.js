@@ -13,6 +13,11 @@ const akanChecker = (e) => {
   const MM = document.getElementById("month").value;
   const yearOfBirth = document.getElementById("year").value;
 
+  if (DD<=0 || DD>31 || MM<=0 || MM>12){
+    alert("Enter Valid Date");
+      return;
+  }
+
 
 
 
