@@ -8,6 +8,8 @@ const akanChecker = (e) => {
 
   const fd = new FormData(form);
 
+  const gender = fd.get("gender");
+
 
 
 
