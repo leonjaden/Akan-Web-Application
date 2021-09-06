@@ -30,6 +30,18 @@ const akanChecker = (e) => {
   const d = dayOfWeek.toFixed(); 
 
 
+  if (d){
+  
+    if (gender === "Male") {
+    alert("Your Akan Name is " + maleNames[d] );
+    } else {
+      alert("Your Akan Name is " +femaleNames[d]);    
+    }  
+  }else {
+      alert("Please Enter Your Date Of Birth"); 
+  }
+
+
 
 
 
