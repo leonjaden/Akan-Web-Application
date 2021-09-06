@@ -20,7 +20,7 @@
 ## Technologies Used
 {The code was created using the VS Code editor. Html, css and javascript were the coding languages used to create the web application}
 ## Support and contact details
-{Author can be reached via this email address: leonjaden5@gmail.com [link to Github]()}
+{Author can be reached via this email address: leonjaden5@gmail.com [link to Github](https://github.com/leonjaden/Akan-Web-Application.git)}
 ### License
 *{MIT License}*
 Copyright (c) {2021} **{Leon Aggrey Jaden}**
