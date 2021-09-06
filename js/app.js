@@ -22,6 +22,10 @@ const akanChecker = (e) => {
   const cC = ccString.charAt(0) + ccString.charAt(1);
   const CC = parseInt(cC);
 
+  const yY = ccString.charAt(2) + ccString.charAt(3);
+  const YY = parseInt(yY);
+
+
 
 
 
