@@ -25,6 +25,8 @@ const akanChecker = (e) => {
   const yY = ccString.charAt(2) + ccString.charAt(3);
   const YY = parseInt(yY);
 
+  let dayOfWeek = ( ( (CC/4)- (2*CC-1)) + ((5*YY/4) ) + (((26*(MM+1))/10)) + DD ) %7 ;
+
 
 
 
