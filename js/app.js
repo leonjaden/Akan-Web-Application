@@ -10,7 +10,7 @@ const akanChecker = (e) => {
 
   const gender = fd.get("gender");
   const DD = document.getElementById("date").value;
-
+  const MM = document.getElementById("month").value;
 
 
 
