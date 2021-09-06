@@ -47,3 +47,5 @@ const akanChecker = (e) => {
 
 
 }
+
+document.querySelector("#formAkans").addEventListener('submit', akanChecker);
