@@ -19,6 +19,7 @@ const akanChecker = (e) => {
   }
 
   const ccString = yearOfBirth.toString();
+  const cC = ccString.charAt(0) + ccString.charAt(1);
 
 
 
