@@ -35,7 +35,7 @@ const akanChecker = (e) => {
     if (gender === "Male") {
     alert("Your Akan Name is " + maleNames[d] );
     } else {
-      alert("Your Akan Name is " +femaleNames[d]);    
+      alert("Your Akan Name is " + femaleNames[d]);    
     }  
   }else {
       alert("Please Enter Your Date Of Birth"); 
@@ -44,7 +44,7 @@ const akanChecker = (e) => {
 
 
 
-
+location.reload();
 
 }
 
