@@ -9,6 +9,12 @@
 * Mouse/Pointing device to click on the correect gender and submit
 
 {This code will run on most web browsers including Chrome, Firefox, Safari and Edge. It is built on html, css and javascript, and only requires the browser to have javascript enabled inorder to run the code}
+## Behaviour Driven Development(BDD)
+| Behaviour                 | Input Example        | Output Example                                                                                                                                           |
+|---------------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| User inputs Date of Birth | DOB e.g (18/06/1993) | The code should use this data to calculate the day of the week the user was born and use that information as an array index e.g Sunday (0), Monday (1) . |
+| User's Gender is Male     | Male is selected     | The array containing the Male Akan Names should be accessed using the array index.                                                                       |
+| User's Gender is Female   | Female is selected   | The array containing the Female Akan Names should be accessed using the array index.                                                                     |
 ## Known Bugs
 {No known bugs }
 ## Technologies Used
@@ -16,5 +22,8 @@
 ## Support and contact details
 {Author can be reached via this email address: leonjaden5@gmail.com [link to Github]()}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*{MIT License}*
+Copyright (c) {2021} **{Leon Aggrey Jaden}**
+
+
+

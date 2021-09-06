@@ -22,13 +22,15 @@ const akanChecker = (e) => {
   const cC = ccString.charAt(0) + ccString.charAt(1);
   const CC = parseInt(cC);
 
-  const yY = ccString.charAt(2) + ccString.charAt(3);
+  const yY = yearOfBirth.charAt(2) + yearOfBirth.charAt(3);
   const YY = parseInt(yY);
 
-  let dayOfWeek = ( ( (CC/4)- (2*CC-1)) + ((5*YY/4) ) + (((26*(MM+1))/10)) + DD ) %7 ;
 
-  const d = dayOfWeek.toFixed(); 
+  const dayOfWeek = ( ( (CC/4) -((2*CC)-1)) + (5*YY/4)  + ((26*(MM+1)/10)) + DD ) % 7;
 
+  const d = Math.ceil(dayOfWeek);
+  
+  console.log(d);
 
   if (d){
   
